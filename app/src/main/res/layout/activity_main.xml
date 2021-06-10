@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="themVaoBoNhoTrong"
+        android:text="Thêm vào bộ nhớ trong" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layTuBoNhoTrong"
+        android:text="Lấy dữ liệu từ bộ nhớ trong" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="themVaoBoNhoNgoai"
+        android:text="Thêm vào bộ nhớ ngoài" />
+
+    <Button
+        android:onClick="layTuBoNhoNgoai"
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lấy dữ liệu từ bộ nhớ ngoài " />
+
+    <Button
+        android:onClick="themVaoBoNhoCache"
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="thêm vào bộ nhớ Cache" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layTuBoNhoCache"
+        android:text="Lấy dữ liệu từ bộ nhớ cache" />
+
+    <Button
+        android:id="@+id/button14"
+        android:onClick="themVaoBoNhoShared"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Thêm vào bộ nhớ Shared Preference" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layTuBoNhoShared"
+        android:text="Lầy từ bộ nhớ Shared Preference" />
+</LinearLayout>
